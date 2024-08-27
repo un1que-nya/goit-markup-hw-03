@@ -94,6 +94,7 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: block;
         padding-top: 24px;
         padding-bottom: 24px;
 }
@@ -116,16 +117,14 @@ p, h1,h2,h3,h4,h5,h6 {
     align-items: center;
 }
 
-.header-contacts-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
+.header-contacts-item {}
 
 .header-contacts-link {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        display: block;
         padding-top: 24px;
         padding-bottom: 24px;
 }
