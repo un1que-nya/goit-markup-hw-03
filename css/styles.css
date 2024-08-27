@@ -83,11 +83,12 @@ p, h1,h2,h3,h4,h5,h6 {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-menu-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+
 }
 
 .header-menu-link {
@@ -317,7 +318,6 @@ p, h1,h2,h3,h4,h5,h6 {
 
 .portfolio-list-item {
     box-sizing: border-box;
-    outline: 1px solid #e7e9fc;
     width: calc((100% - 24 * 2) / 3);
 }
 
@@ -327,11 +327,9 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio-description {
-    /* padding-top: 32px;
-    padding-bottom: 32px;
-    padding-left: 16px; */
     padding: 32px 16px;
     text-align: left;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {
