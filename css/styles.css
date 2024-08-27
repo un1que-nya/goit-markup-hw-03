@@ -29,11 +29,15 @@ p, h1,h2,h3,h4,h5,h6 {
 }
 
 .title-colored {
-    color: #4d5ae5;
+    color: #2e2f42;
+}
+
+.footer-title-colored {
+    color: #f4f4fd;
 }
 
 .contact:hover {
-    color:#404BBF
+    color:#404BBF;
 }
 
 .container {
@@ -75,7 +79,7 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
         display: flex;
         margin-right: 76px;
         align-items: center;
@@ -186,18 +190,15 @@ p, h1,h2,h3,h4,h5,h6 {
 
 .visually-hidden {
     position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    outline: transparent;
-    outline-offset: 0;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .features-section {
@@ -208,7 +209,6 @@ p, h1,h2,h3,h4,h5,h6 {
 .features-list {
     display: flex;
     gap: 24px;
-    
 }
 
 .features-list-item {
@@ -260,7 +260,7 @@ p, h1,h2,h3,h4,h5,h6 {
 
 .team-list-item {
     border-radius: 0 0 4px 4px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        /* box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); */
         background-color: #FFFFFF;
         width: calc((100% - 24 * 3) / 4);
 }
@@ -272,6 +272,7 @@ p, h1,h2,h3,h4,h5,h6 {
 .team-description {
     padding: 32px 0;
     text-align: center;
+    border: 1px solid #e7e9fc;
 }
 
 .team-name {
@@ -290,6 +291,8 @@ p, h1,h2,h3,h4,h5,h6 {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        /* padding-bottom: 8px;
+        margin-bottom: 8px; */
 }
 
 /*  ---  */
@@ -378,7 +381,7 @@ p, h1,h2,h3,h4,h5,h6 {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
         margin-bottom: 16px;
         display: inline-block;
 }
